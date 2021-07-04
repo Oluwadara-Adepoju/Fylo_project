@@ -1,0 +1,132 @@
+@import url(https://fonts.google.com/specimen/Raleway);
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0 ;
+}
+body{
+    /* font-family: @import url(https://fonts.google.com/specimen/Open+Sans); */
+    background-color: hsl(218, 28%, 13%);
+    color:white;
+    line-height: 1.6;
+  }
+
+.navbar {
+  background-color: hsl(218, 28%, 13%);
+  color: white;
+  height: 70px;}  
+.h1{
+  font-family: "Raleway";
+  font-weight: 700;
+  line-height: 1.2;
+  margin: 10px 0;
+}
+
+.navbar ul{
+  display: flex;
+}
+.navbar a{
+  color: white;
+  padding: 10px; 
+  margin: 0 5px;
+
+}
+.navbar a:hover {
+  border-bottom: 2px hsl(218, 28%, 13%);
+}
+.navbar .flex{
+ justify-content: space-between;
+}
+.li{
+
+  background-color: white;
+}
+.p{
+  margin: 10px
+}        
+ul{list-style-type: none;}
+a{
+  text-decoration: none;
+  color:hsl(218, 28%, 13%) ;}
+/* .responsive{
+  display: block;
+  width: 50%;
+  height: 50%;
+  align-self: center; */
+
+.container{
+  max-width: auto;
+  margin: 0 auto;
+  overflow: auto;
+  padding: 0 40px;
+}
+.flex{
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  height: 100%;
+}
+.illustration-intro{
+  text-align: center;
+  padding-left: 20%;
+  padding-right: 20%;
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+.intro-text{
+  text-align: center;
+  padding-top: 2%;
+  word-break: initial;
+  
+}
+.intro-text h1{
+  font-stretch: expanded;
+  
+}
+button{
+  background-color: hsl(176, 68%, 64%);
+  border-radius: 20px;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 14px;
+  width: 25%;
+
+}
+.grid-container{
+  display: grid;
+  grid-gap: 5%;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto auto;
+}
+.grid-item{
+  text-align: center;
+}
+.grid-item p{
+  padding-left: 5%;
+  padding-right: 5%;
+  word-wrap: break-word;
+
+}
+
+.flex-container{
+  display: flex;
+  margin-top: 10%;
+  word-wrap: break-word;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.flex-item {
+  background-color: hsl(219, 30%, 18%);
+  margin: auto;
+  padding: 2% 2% 2% 2%;
+  width: 30%;
+  justify-content: center;
+  justify-items: center;
+  align-content: center;
+  align-items: center;
+}
