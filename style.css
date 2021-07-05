@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400&display=swap');
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0 ;
+
+}
+body{
+    font-family: 'Raleway', sans-serif;
+    background-color:  hsl(217, 28%, 13%);
+    color: hsl(0, 0%, 100%);
+    line-height: 1.6;
+  }
+/* @font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 300;
+} */
+.navbar {
+  background-color:  hsl(217, 28%, 15%);
+  color: hsl(0, 0%, 100%);
+  height: 70px;}  
+.h1{
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  line-height: 1.2;
+  margin: 10px 0;
+}
+
+.navbar ul{
+  display: flex;
+}
+.navbar a{
+  color: hsl(0, 0%, 100%);
+  padding: 10px; 
+  margin: 0 5px;
+
+}
+.navbar a:hover {
+  border-bottom: 2px hsl(218, 28%, 13%);
+}
+.navbar .flex{
+ justify-content: space-between;
+}
+.li{
+
+  background-color:  hsl(0, 0%, 100%);
+}
+.p{ font-family: 'Raleway', sans-serif;
+  margin: 10px;
+  
+}        
+ul{list-style-type: none;}
+a{
+  text-decoration: none;
+  color:hsl(218, 28%, 15%) ;}
+
+.container{
+  max-width: auto;
+  margin: 0 auto;
+  padding: 0 40px;
+  background-color:  hsl(216, 53%, 15%);
+}
+.flex{
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  height: 100%;
+}
+.illustration-intro{
+  text-align: center;
+  padding-left: 20%;
+  padding-right: 20%;
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+.intro-text{
+  text-align: center;
+  padding-top: 2%;
+  word-break: initial;
+  
+}
+.intro-text h1{
+  font-stretch: expanded;
+  
+}
+button{
+  background-color: hsl(176, 68%, 64%);
+  border-radius: 20px;
+  color:  hsl(0, 0%, 100%);
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 14px;
+  width: 27%;
+
+/* Feature items */
+}
+.grid-container{
+  display: grid;
+  gap: 20px;
+  /* grid-gap: 5%; */
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: repeat(2, 1fr);
+  height: 100%;
+  /* grid-template-columns: auto auto;
+  grid-template-rows: auto auto auto; */
+}
+.grid-item{
+  text-align: center;
+}
+.grid-item p{
+  padding-left: 5%;
+  padding-right: 5%;
+  word-wrap: break-word;
+}
+.grid-item a{
+ font-family: "Raleway"; 
+color: hsl(176, 68%, 64%);
+text-decoration-line: underline ;
+  }
+
+ 
+
+  .container{
+  background-color: hsl(218, 28%, 15%);
+ }
+.flex-container{
+  
+  display: flex;
+  flex-direction: row;
+  margin-top: 10%;
+  word-wrap: break-word;
+  margin-left: 5%;
+  margin-right: 5%;
+  border-radius: 5px;
+  padding: 16px;
+  margin: 16px 0;
+}
+
+
+.flex-item img{
+  float: left;
+  margin-right: 20px;
+  border-radius: 40%;
+  margin: left;
+  float: none;
+  display: block;
+}
+
+      
+  
+
+.flex-item {
+
+  background-color: hsl(219, 30%, 18%);
+  padding: 2% 2% 2% 2%;
+  width: 30%;
+  justify-content: center;
+  justify-items: center;
+  align-content: center;
+  align-items: center;
+  margin: 10px;
+
+} 
+.form{
+  
+  padding-left: 5%;
+  
+}
+
+
+/* .background-color{
+  background-color:hsl(218, 28%, 13%) ; */
+
+
+
+.cta{
+   background-color: hsl(218, 28%, 13%);
+  box-shadow: 0 5px 10px hsl(216, 53%, 13%); ;
+  border-radius: 4px ;
+  padding: 2% 2% 2% 2%;
+  text-align: center;
+}
+
+
+
+
+.newsletter{
+   background-color: hsl(217, 28%, 15%);
+  padding: 2% 2% 2% 2%;
+  text-align: center;
+  margin-top: 10%;
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-bottom: -10%;
+  
+}
+input{
+  width: 70%;
+  height: 50px;
+  border-radius: 15px;
+  float: left;
+}
+
+
+footer{
+  width: 100%;
+  margin-top: -10%;
+
+ 
+}
+footer .flex-container2{
+  display: flex;
+  width: 100%;
+}
+footer .flex-footer{
+  margin: auto;
+  padding: 10% 2% 2% 2%;
+  justify-content: space-evenly;
+  justify-items: center;
+  align-content: space-around;
+  align-items: center;
+
+}
+.img-logo{
+  display: flex;
+  justify-content: flex-start ;
+}
+
+.icon1,.icon2{
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  align-items: center;
+  justify-content: center;
+  margin: 5px;
+}
+.icon1 img, .icon2 img{
+padding: 10px;
+}
+
+footer.flex{
+  justify-content: stretch;
+
+}
